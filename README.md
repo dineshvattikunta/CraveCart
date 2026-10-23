@@ -5,6 +5,14 @@
 [![Flask](https://img.shields.io/badge/Backend-Python%20Flask-000000?logo=flask)](https://flask.palletsprojects.com/)
 [![MongoDB](https://img.shields.io/badge/Database-MongoDB%207.0-47A248?logo=mongodb)](https://www.mongodb.com/)
 [![Nginx](https://img.shields.io/badge/Proxy-Nginx%20Alpine-009639?logo=nginx)](https://nginx.org/)
+[![Vercel Frontend](https://img.shields.io/badge/Vercel-Live%20Demo-black?logo=vercel)](https://crave-cart-beta.vercel.app/)
+[![Render Backend](https://img.shields.io/badge/Render-API%20Live-46E3B7?logo=render)](https://cravecart-api.onrender.com/api/health)
+[![MongoDB Atlas](https://img.shields.io/badge/MongoDB-Atlas%20Cloud-green?logo=mongodb)](https://www.mongodb.com/cloud/atlas)
+
+> **🌐 Live Deployment Links:**
+> - **Live Web Application (Frontend):** [https://crave-cart-beta.vercel.app/](https://crave-cart-beta.vercel.app/)
+> - **Live REST API (Backend):** [https://cravecart-api.onrender.com/api/health](https://cravecart-api.onrender.com/api/health)
+> - **Cloud Database:** MongoDB Atlas (AWS cluster)
 
 > **University DevOps & Cloud Architecture Project**  
 > An enterprise-grade, fully functional Online Food Ordering platform inspired by the visual design quality, product-grid layouts, refined spacing, and shopping experience of **Bazaar Pro — Multipurpose E-Commerce**.
