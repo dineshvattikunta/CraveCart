@@ -16,7 +16,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose backend port
-EXPOSE 5000
+EXPOSE 5000 10000
 
-# Run with gunicorn in production
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "3", "--timeout", "120", "wsgi:app"]
+# Run with gunicorn binding dynamically to $PORT (supporting both local 5000 and Render 10000)
+CMD sh -c "gunicorn --bind 0.0.0.0:${PORT:-5000} --workers 3 --timeout 120 wsgi:app"
